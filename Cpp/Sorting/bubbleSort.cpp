@@ -1,3 +1,6 @@
+//Implementation of buble sort in c++
+//Time complexity of O(n)
+
 #include <iostream>
 #include <vector>
 
@@ -33,7 +36,9 @@ vector<int> bubleSort(vector<int> arr)
  return arr ;
 }
 
-int main()
+//Simple example
+
+int main() 
 {
 vector<int> arr = {1,0,0,93,2,1334,0,567,66};
 
